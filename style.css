@@ -1,0 +1,19 @@
+.hover-test__container {
+    display: flex;
+    justify-content: space-around;
+}
+.hover-test {
+    width: 90px;
+    height: 90px;
+    background-color: #000;
+
+    border-radius: 16px;
+}
+@media (hover: hover) and (pointer: fine) {
+    .hover-test:hover {
+        background-color: #4d7eda;
+    }
+}
+.hover-test.clicked {
+    background-color: #4d7eda;
+}

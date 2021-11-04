@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<title>Click Handler – Ralf’s Portfolio</title>
+		<meta name="description" content="A jQuery script and some CSS styles that give elements with the class “clickable” a special style when hovered of selected."/>
+
+		<link rel="stylesheet" href="/alice.css">
+		<link rel="stylesheet" href="style.css">
+
+		<link rel="canonical" href="ralf.infinityfreeapp.com/click-handler">
+
+		<meta property="og:type" content="website">
+		<meta property="og:title" content="Click Handler – Ralf’s Portfolio">
+		<meta property="og:image" content="thumbnail.jpg" alt="Presentation of the website ralf.infinityfreeapp.com">
+		<meta property="og:description" content="A jQuery script and some CSS styles that give elements with the class “clickable” a special style when hovered of selected.">
+		<meta property="og:url" content="ralf.infinityfreeapp.com/click-handler">
+
+		<script src="jQuery.js"></script>
+		<script src="ClickHandler.js"></script>
+	</head>
+
+	<body>
+		<header>
+			<a id="logo" href="/">
+				<span>Ralf’s Portfolio</span>
+				<span><b>Programming projects</b> developed by <b>Ralf Gunter Rotstein</b> (and a poem).</span>
+			</a>
+		</header>
+			
+		<div id="intro">
+			<h1>Click Handler</h1>
+			<p>This is a minimalist example of a <b>jQuery</b> script and some <b>CSS</b> styles that, together, give elements with the class “clickable” a special style when hovered of selected, disallowing the selection of more than one element at a time. <b>Hover, click or touch the squares</b> to see it working.</p>
+		</div>
+
+		<main>
+			<h2>Squares</h2>
+
+			<div class="hover-test__container">
+				<div class="hover-test clickable"></div>
+				<div class="hover-test clickable"></div>
+				<div class="hover-test clickable"></div>
+			</div>
+
+			<div id="return-link__div"><a href="/">back to Ralf’s Portfolio</a></div>
+        </main>
+
+        <div class="quote">
+            <p class="quote__text">It takes all the running you can do, to keep in the same place. If you want to get somewhere else, you must run at least twice as fast as that!</p>
+            
+            <span class="quote__author">Lewis Carroll</span>
+        </div>
+
+        
+        <footer>
+            <a href="/">Ralf’s Portfolio</a>
+        </footer>
+    </body>
+</html>
